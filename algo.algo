@@ -1,0 +1,25 @@
+
+ALGORITHM Sentance
+VAR
+    i,word,vowels : INTEGER := 0;
+    str: STRING    ;
+
+
+BEGIN
+    Write(sentance);
+    Read(sentance)
+
+    FOR i FROM 0 TO str[i] = "." STEP 1  DO
+        IF (str[i]=" ") THEN
+            word = word + 1
+        END_IF
+
+        IF (str[i] ='a' Or str[i]='o' Or str[i]='u' Or str[i]='i' Or str[i]='e' Or str[i]='y') THEN
+           vowels = vowels +1
+        END_IF
+        Write("sentance's length is" , i)
+    END_FOR
+
+    Write("Number of vowels is" , vowels)
+    Write("Number of words is" , words)
+END
